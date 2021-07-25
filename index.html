@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boomerang</title>
+    <!------------BOOTSTRAP CSS---------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--------AOS Library CSS--------->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Line Icons CDN -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <!--Font Awesome Kits-->
+    <script src="https://kit.fontawesome.com/1534d3aaf3.js" crossorigin="anonymous"></script>
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/logos/Boomerang Favicon.png" type="image/x-icon">
+
+</head>
+<body>
+                 <!-- header start -->
+<header>
+
+<div class="container">
+                <!--Navbar Start-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="container">
+                    <h1 class="navbar-brand fs-3 fw-bolder logo-font">Boomerang</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#Pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                       
+                      </ul>
+                     
+                    </div>
+                  </div>
+      </nav>
+   <!--     Banner Slider    -->
+  
+ 
+  <div class="container">
+    <div id="slide-indicator" class="carousel slide my-5 " data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="slide-indicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="slide-indicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="slide-indicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="slide-1 row d-flex align-items-center gx-3 p-md-5">
+            <div class="col-md-6 p-5">
+              <h5 class="text-warning">Client Satifaction</h5>
+              <h1 class="text-white"> Its all about customers</h1>
+              <p class="text-white">Hearing you is our priamry duty.So,we listen to our custmers and respond to their needs.</p>
+              <button class="btn btn-dark mt-3" type="button">Get Started</button>
+            </div>
+            <div class="col-md-6 p-3">
+              <img src="images/banner/Banner-4.jpg" class="d-block w-100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slide-2 row d-flex align-items-center gx-3  p-md-5">
+            <div class="col-md-6 p-5">
+              <h5 class="text-warning">Dedicated for your care</h5>
+              <h1 class="mb-4 text-white">Your care is our Passion.</h1>
+              <p class="text-white">We are committed to total customer service.</p>
+              <button class="btn btn-dark mt-3" type="button">Get Started</button>
+            </div>
+            <div class="col-md-6 p-3">
+              <img src="images/banner/Banner-2.jpg" class="d-block w-100" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slide-3 row d-flex align-items-center gx-3  p-md-5">
+            <div class="col-md-6 p-5">
+              <h5 class="text-warning">24/7 Service</h5>
+              <h1 class="text-white">We Are here for you</h1>
+              <p class="text-white">We offer 24/7 support! You are always welcome to call our offices during normal business hours</p>
+              <button class="btn btn-dark mt-3" type="button">Get Started</button>
+            </div>
+            <div class="col-md-6 p-3">
+              <img src="images/banner/banner-3.jpg" class="d-block w-100" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  <!-- Banner Slider Ends -->
+
+</header>
+<!--              Header Ends                  -->
+<!--      Main Starts        -->
+<main>
+  <div class="container">
+    <!-- Features Area Starts -->
+    <section class="features" id="features" data-aos="zoom-in" data-aos-delay="100">
+     <div class="features-texts text-center" data-aos="zoom-in" data-aos-delay="500">
+        <h2 class="fw-bolder fs-1">Features</h2>
+        <p class="fs-3">
+           Here's some of our services
+        </p>
+        <hr class="border border-secondary w-50 mx-auto">
+     </div>
+     <div class="d-flex feature-boxes">
+        <div class="feature text-center" data-aos="zoom-in" data-aos-delay="1000">
+         <i class="fas fa-highlighter fs-1 text-dark"></i>
+           <h3 class="heading-features pt-2">
+              Trendy Design
+           </h3>
+           <p class="feature-text">
+              Slate help you see how many more days you need to work
+              to reach your goal. Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit.
+           </p>
+        </div>
+        <div class="feature text-center" data-aos="zoom-in" data-aos-delay="1500">
+         <i class="fab fa-uikit fs-1 text-dark"></i>          
+         <h3 class="heading-features pt-2">
+             UI/UX Design
+           </h3>
+           <p class="feature-text">
+              Slate help you see how many more days you need to work
+              to reach your goal. Lorem ipsum dolor sit amet
+              consectetur.
+           </p>
+        </div>
+        <div class="feature text-center" data-aos="zoom-in" data-aos-delay="2000">
+         <i class="fas fa-database fs-1 text-dark"></i>
+           <h3 class="heading-features pt-2">
+              Data Science
+           </h3>
+           <p class="feature-text">
+              Slate help you see how many more days you need to work
+              to reach your goal. Lorem ipsum dolor sit amet.
+           </p>
+        </div>
+     </div>
+   
+  </section>
+  <!--       Features Section Ends      -->
+  </div>
+  
+ 
+ 
+    <!--       Try Out Section      -->
+     <section class="try-section row">
+ 
+     <div class="try-texts col-md-6 col-lg-6">
+        <h2 class="heading-secondary text-dark" data-aos="fade-up-right" data-aos-delay="500">Fastest way to organize</h2>
+        <p class="try-texts-text text-dark" data-aos="fade-right" data-aos-delay="580">
+          We know that for every minute spent organizing, an hour is earned.We are painfully aware that for our clients time is of the essence. There’s no way to add hours to the day, but with a little prioritizing and organization.
+          That's why thousand of people choose <span class="navbar-brand">Boomerang</span> to get their work done.
+          
+        </p>
+ 
+        <button class="btn" data-aos="zoom-in" data-aos-delay="1600">Try For Free</button>
+     </div>
+     <div class="try-img col-md-6 col-lg-4 align-items-center" data-aos="zoom-in-down" data-aos-delay="1500">
+       <img src="images/try out/organizing-2.png" alt="" />
+    </div>
+   
+   </section>
+   <!--  Try out section ends -->
+   
+   
+  <!--     Card Area        -->
+     <section class="conatainer" data-aos="fade-up-right" data-aos-delay="100" id="Pricing">
+       <h1 class="fw-bolder text-center pb-3 price-heading">Pricings</h1>
+      <div class="card-group" data-aos="fade-up-right" data-aos-delay="130">
+                           <!--Card-1 -->
+       <div class="card price-card mb-3 mx-4" data-aos="zoom=in"
+       data-aos-delay="300">
+         <div class="row g-0">
+           <div class="col-md-4" data-aos="zoom-in"
+           data-aos-delay="340">
+             <img src="images/price-1.jpg" class="w-100" alt="">
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h1 class="card-title fs-1 fw-bolder" data-aos="fade-up-right" data-aos-delay="400">Free</h1>
+               <p class="card-text text-muted" data-aos="fade-up-right" data-aos-delay="450"><small>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small></p>
+               <button type="submit" class="btn card-btn" >
+                 Check Now
+              </button>
+               
+             </div>
+           </div>
+         </div>
+       </div>
+       <!--                     Card-2        -->
+       <div class="card price-card mb-3 mx-4" data-aos="zoom=in"
+       data-aos-delay="500">
+         <div class="row g-0">
+           <div class="col-md-4" data-aos="zoom-in"
+           data-aos-delay="550">
+             <img src="images/price-4.jpg" class="w-100" alt="">
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h1 class="card-title fs-1 fw-bolder" data-aos="fade-up-right" data-aos-delay="600">$45</h1>
+               <p class="card-text text-muted" data-aos="fade-up-right" data-aos-delay="650"><small>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small></p>
+               <button type="submit" class="btn card-btn" >
+                 Check Now
+              </button>
+               
+             </div>
+           </div>
+         </div>
+       </div>
+              <!--                Card-3           -->
+              <div class="card price-card mb-3 mx-4" data-aos="zoom=in"
+              data-aos-delay="700">
+                <div class="row g-0">
+                  <div class="col-md-4" data-aos="zoom-in"
+                  data-aos-delay="750">
+                    <img src="images/price-3.jpg" class="w-100" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h1 class="card-title fs-1 fw-bolder" data-aos="fade-up-right" data-aos-delay="800">$60</h1>
+                      <p class="card-text text-muted" data-aos="fade-up-right" data-aos-delay="850"><small>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small></p>
+                      <button type="submit" class="btn card-btn" >
+                        Check Now
+                     </button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+     </section>
+      
+     <div class="container my-5" data-aos="fade-up-right" data-aos-delay="100">
+       <h1 class="text-center fs-1 fw-bolder" data-aos="fade-up-right" data-aos-delay="200">Contact Us</h1>
+       <p class="text-center text-muted pb-4" data-aos="fade-up-right" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, deserunt?</p>
+       <div class="row g-0">
+         <!-- form area -->
+         <div class="col-12 col-md-4 col-lg-4 py-3 form-area" data-aos="fade-right" data-aos-delay="300">
+          <form action="">
+            <input type="e-mail" class="form-control rounded-1 pb-2" name="e-mail" id="e-mail" placeholder="E-mail" data-aos="zoom-in" data-aos-delay="400">
+            <input type="text" class="form-control rounded-1 pb-2" name="text" id="text" placeholder="Your name" data-aos="zoom-in" data-aos-delay="450">
+            <textarea name="feedback" class="form-control rounded-1 pb-3" id="feedback" cols="15" rows="10" placeholder="Feedback" data-aos="zoom-in" data-aos-delay="500">
+ 
+            </textarea>
+            <button class="btn form-btn">submit</button>
+          </form>
+          <!--   form area ends   -->
+         </div>
+         <!-- contacts area  -->
+         <div class="col-12 col-md-8 col-lg-7" data-aos="fade-down" data-aos-delay="600">
+           <!-- svg icons area -->
+           <div class="row svg-icons" data-aos="fade-down" data-aos-delay="650">
+             <div class="col-12 col-md-4 col-lg-4 icons" data-aos="fade-down" data-aos-delay="800">
+             
+               <svg
+               xmlns="http://www.w3.org/2000/svg"
+               class="h-6 w-6"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke="currentColor"
+            >
+               <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+               />
+               <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+               />
+            </svg>
+            <p>Silicon Valley
+              <br> California, USA
+            </p>
+ 
+             </div>
+             <div class="col-12 col-md-4 col-lg-4 icons" data-aos="fade-down" data-aos-delay="900">
+             
+              <svg
+               xmlns="http://www.w3.org/2000/svg"
+               class="h-6 w-6"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke="currentColor"
+            >
+               <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+               />
+            </svg>
+            <p class="word-wrap">
+            somebody@gmail.com
+            </p>
+ 
+             </div>
+             <div class="col-12 col-md-4 col-lg-4 icons" data-aos="fade-down" data-aos-delay="1000">
+             
+              <svg
+               xmlns="http://www.w3.org/2000/svg"
+               class="h-6 w-6"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke="currentColor"
+            >
+               <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+               />
+            </svg>
+            <p class="word-wrap">+880181*******</p>
+ 
+             </div>
+           </div>
+          <div class="col-12 col-md-8 col-lg-6 my-3 map">
+            <a href="" target="_blank">
+              <img class="ms-5 mx-sm-5" src="images/map-1.png" alt="">
+            </a>
+          </div>
+         </div>
+         <!-- Contact area ends -->
+       </div>
+     </div>
+     
+</main>
+<!-- main ends -->
+
+   <!-- footer section -->
+   <footer class="">
+     <!-- Social Area -->
+     <div class="row g-0 text-center">
+       <div class="social-icons col-6 col-md-3 col-lg-3">
+        <a href="">
+          <i class="fab fa-facebook-square fs-1"></i>
+        
+        </a>
+      </div>
+       <div class="social-icons col-6 col-md-3 col-lg-3">
+       <a href="">
+        <i class="fab fa-instagram fs-1">
+
+        </i>       
+      </a>      
+      </div>
+       <div class="social-icons col-6 col-md-3 col-lg-3">
+      <a href="">
+        <i class="fab fa-twitter fs-1">
+
+        </i>      
+      </a>  
+      </div>
+       <div class="social-icons col-6 col-md-3">
+        <a href="">
+          <i class="fab fa-github-square fs-1"></i>
+        </a>
+      </div>
+      <div class="text-center pt-3">
+        <p class="text-muted fw-bold"> © 2021 Boomerang - All Rights Reserved.</p>
+      </div>
+      
+     </div>
+     <!-- Social Area ends-->
+     
+   </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--------AOS Library JS---------->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
+</body>
+</html>
